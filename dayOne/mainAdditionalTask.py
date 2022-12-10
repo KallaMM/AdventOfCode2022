@@ -27,10 +27,9 @@ def add_callories(foodie):
     print("Solution is:", day_two_solution)
 
 
-
 if __name__ == '__main__':
 
-    with open('/Users/kallamarciniak/PycharmProjects/AdventOfCode2022/data.txt') as f:
+    with open('/data.txt') as f:
         food = f.readlines()
 
         newfoodielist = []
