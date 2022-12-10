@@ -15,7 +15,7 @@ def add_callories(foodie):
 
 if __name__ == '__main__':
 
-    with open('./data.txt') as f:
+    with open('../data.txt') as f:
         food = f.readlines()
 
         newfoodielist = []
@@ -26,6 +26,7 @@ if __name__ == '__main__':
                 food_int = int(single_food)
             newfoodielist.append(food_int)
 
+        # return result
         add_callories(newfoodielist)
 
 
