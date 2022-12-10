@@ -1,4 +1,4 @@
-# Day Two
+# Day One - extra task
 # Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?
 
 def add_callories(foodie):
@@ -29,7 +29,7 @@ def add_callories(foodie):
 
 if __name__ == '__main__':
 
-    with open('/data.txt') as f:
+    with open('/Users/kallamarciniak/PycharmProjects/AdventOfCode2022/dayOne/data.txt') as f:
         food = f.readlines()
 
         newfoodielist = []
